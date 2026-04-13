@@ -1,0 +1,23 @@
+---
+title: "My R Markdown Primer"
+author: "Metadata"
+date: "2026-04-13"
+output: html_document
+---
+R Markdown is a document format in R Studio that gives space for writing instructions along with seperate code workspaces. This structure provides a visually balanced environment for the user. When the user hits "knit", the document output will list both the markdown text, as well as the coded lines fully processed. $/pi$
+
+### First Execution of MtCars
+
+```{r}
+data(mtcars)
+print(mtcars)
+
+```
+
+## Second Execution of MtCars 
+
+```{r}
+summary(mtcars)
+dim(mtcars)
+```
+

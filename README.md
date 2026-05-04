@@ -57,28 +57,6 @@ result$summary
 * Uses simple lexicon-based sentiment analysis
 
 ---
-## Example Usage
-
-```r
-library(moodDispensery)
-
-# Example dataset
-df <- data.frame(
-  text = c(
-    "I love this product",
-    "This is terrible and frustrating",
-    "It's okay, nothing special"
-  )
-)
-
-# Run full analysis
-result <- analyze_mood(df)
-
-# View detailed results
-result$detailed
-
-# View summary
-result$summary
 ```
 
 ## Author

@@ -20,25 +20,6 @@ df <- data.frame(
   text = c(
     "I love this product",
     "This is terrible and frustrating",
-    "It's okay, nothing special"
-  )
-)
-
-result <- analyze_mood(df)
-
-result$detailed
-result$summary
-```
-
----
-
-## Example
-
-```r
-df <- data.frame(
-  text = c(
-    "I love this product",
-    "This is terrible and frustrating",
     "It's okay, nothing special",
     "Absolutely amazing experience",
     "I hate how slow this is",
@@ -47,6 +28,11 @@ df <- data.frame(
     "I'm very happy with the results"
   )
 )
+
+result <- analyze_mood(df)
+
+result$detailed
+result$summary
 ```
 
 ---

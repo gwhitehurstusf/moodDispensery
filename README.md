@@ -11,6 +11,13 @@ moodDispensery is an R package that analyzes short text data and classifies its 
 * `theme_summary()` – summarizes mood distribution
 * `analyze_mood()` – runs the full workflow
 
+## Installation
+Since this package is not on CRAN, install it from GitHub:
+install.packages("devtools")
+devtools::install_github("YOURUSERNAME/moodDispensery")
+Then load:
+library(moodDispensery)
+
 ## Example Usage
 
 ```r

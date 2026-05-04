@@ -1,6 +1,6 @@
 # moodDispensery
 
-## intoduction
+## Intoduction
 
 moodDispensery is an R package that analyzes text data and classifies its emotional tone, similar to a "mood ring" for data. It provides sentiment scores and mood labels for simple NLP exploration.
 

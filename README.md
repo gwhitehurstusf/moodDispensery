@@ -1,17 +1,34 @@
 # moodDispensery
 
-moodDispensery is an R package designed to analyze short text data and classify its overall emotional tone. It applies sentiment analysis techniques to generate sentiment scores and assign mood labels (happy, sad, neutral), making it useful for introductory exploration of natural language processing concepts. call it the "mood ring" of packages!
----
-
 ## Overview
 
-`moodDispensery` analyzes short text and classifies emotional tone as:
+moodDispensery is an R package that analyzes short text data and classifies its emotional tone, similar to a "mood ring" for data. It provides sentiment scores and mood labels for simple NLP exploration.
 
-* happy
-* neutral
-* sad
+## Functions
 
-It also provides sentiment scores and a summary of results.
+* `analyze_sentiment()` – calculates sentiment scores from text
+* `classify_mood()` – assigns mood labels (happy, sad, neutral)
+* `theme_summary()` – summarizes mood distribution
+* `analyze_mood()` – runs the full workflow
+
+## Example Usage
+
+```r
+library(moodDispensery)
+
+df <- data.frame(
+  text = c(
+    "I love this product",
+    "This is terrible and frustrating",
+    "It's okay, nothing special"
+  )
+)
+
+result <- analyze_mood(df)
+
+result$detailed
+result$summary
+```
 
 ---
 
@@ -38,15 +55,6 @@ df <- data.frame(
 
 * `detailed`: sentiment scores + mood labels
 * `summary`: count and percentage of each mood
-
----
-
-## Functions
-
-* `analyze_sentiment()`
-* `classify_mood()`
-* `theme_summary()`
-* `analyze_mood()`
 
 ---
 

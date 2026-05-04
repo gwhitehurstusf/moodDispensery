@@ -20,7 +20,14 @@ df <- data.frame(
   text = c(
     "I love this product",
     "This is terrible and frustrating",
-    "It's okay, nothing special"
+    "It's okay, nothing special",
+    "Absolutely amazing experience",
+    "I hate how slow this is",
+    "Pretty decent overall",
+    "Worst purchase I've made",
+    "I'm very happy with the results"
+  )
+)
   )
 )
 

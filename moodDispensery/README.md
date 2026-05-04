@@ -2,7 +2,7 @@
 
 ## Intoduction
 
-moodDispensery is an R package that analyzes text data and classifies its emotional tone, similar to a "mood ring" for data. It provides sentiment scores and mood labels for simple NLP exploration.
+moodDispensery is an R package designed to analyze short text data and classify its overall emotional tone. It applies sentiment analysis techniques to generate sentiment scores and assign mood labels (happy, sad, neutral), making it useful for introductory exploration of natural language processing concepts.
 
 ## Functions
 

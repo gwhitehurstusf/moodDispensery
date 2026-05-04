@@ -28,10 +28,9 @@ df <- data.frame(
     "I'm very happy with the results"
   )
 )
-  )
-)
-
+##The analyze_mood() function combines sentiment scoring, mood classification, and summary generation into a single workflow.
 result <- analyze_mood(df)
+
 
 result$detailed
 result$summary

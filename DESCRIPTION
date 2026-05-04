@@ -1,0 +1,23 @@
+Package: moodDispensery
+Type: Package
+Title: Sentiment-Based Mood Classification for Short Text Data
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Grace", "Whitehurst",
+      email = "gwhitehurst@usf.edu",
+      role = c("aut", "cre")
+    )
+  )
+Description: moodDispensery is an R package designed to analyze short text inputs 
+    and classify their overall emotional tone, similar to a "mood ring" for data. 
+    The package processes text-only input and returns structured sentiment insights, 
+    including sentiment scores and mood labels. This tool is intended for introductory 
+    exploration of natural language processing (NLP) concepts in data science and 
+    machine learning. It is best suited for small-scale text data (approximately 
+    50–100 words) and provides simple, interpretable outputs through functions such as 
+    analyze_sentiment(), classify_mood(), and theme_summary().
+Imports: dplyr, tidytext, tidyr
+License: MIT
+Encoding: UTF-8
+LazyData: true
